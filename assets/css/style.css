@@ -175,9 +175,9 @@ body {
 }
 
 .carousel-speak h5 {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: -2rem;
 }
 .carousel-speak h4 {
   font-size: 2.5rem;
@@ -285,9 +285,18 @@ body {
   margin: 4rem 0;
 }
 .about-paragraph {
-  word-break: break-all;
-  width: 100%;
+  text-justify: auto;
+  width: 94%;
   margin: -3rem 0;
+}
+.moto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  width: 100%;
+  margin-top: 4rem;
 }
 .about-read-more {
   padding: 0.7rem 1rem;
@@ -296,7 +305,7 @@ body {
   text-align: center;
   border-radius: 5px;
   border: 0;
-  margin: 5.4rem 0;
+  margin: 1.4rem 0;
 }
 .about-image img {
   width: 100%;
@@ -497,6 +506,7 @@ footer {
   }
   .carousel-speak h5 {
     font-size: 1.5rem;
+    padding: 2rem 0;
   }
   .carousel-speak h4 {
     font-size: 1.1rem;
@@ -555,19 +565,36 @@ footer {
     margin: 0 0;
     width: 100%;
   }
+  .about-info p {
+    padding: 0 1rem;
+  }
   .about-header {
     text-align: center;
     font-size: larger;
   }
   .about-heading {
     font-size: medium;
+    padding: 0 1rem;
   }
   .about-paragraph {
-    word-break: break-all;
+    text-justify: auto;
+  }
+  .moto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 20px;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .moto h5 {
+    padding: 0 1rem;
+    font-size: medium;
   }
   .about-read-more {
     border: 0;
-    margin: 5.4rem 0;
+    margin: 5.4rem 1rem;
   }
   .about-image img {
     height: 40vh;
